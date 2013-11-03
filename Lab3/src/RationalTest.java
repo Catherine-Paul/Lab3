@@ -104,8 +104,7 @@ public class RationalTest extends TestCase {
     	Rational a = new Rational(-4, -3);
     	Rational b = new Rational(4, 3);  	
     	assertEquals(a.abs(), b);
-        System.out.println("\n Test Abs for rational numbers passed. \n");
-    }
+            }
     
     public void testgcd() {
         Rational myRational = new Rational(10, 5);
@@ -155,7 +154,7 @@ public class RationalTest extends TestCase {
         } catch (IllegalArgumentToSquareRootException e) {
             assertEquals(sRoot, null);
         }
-        System.out.println("\n \n Test root for values whose numerator is greater than 46341 gives an exception as excepted. \n");
+       
     }
     
     public void testRootforlow() {
@@ -166,7 +165,7 @@ public class RationalTest extends TestCase {
         } catch (IllegalArgumentToSquareRootException e) {
             assertEquals(sRoot, null);
         }
-        System.out.println("\n Sq root for Negative values gives an exception as excepted. \n");
+        
     }
     
     
