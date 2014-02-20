@@ -19,5 +19,6 @@ public class JavaApplication7 {
         // TODO code application logic here
     }
     //testing jira integration
+    //testing how to close
     
 }
